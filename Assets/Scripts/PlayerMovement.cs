@@ -14,10 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        // Rigidbody2D and Collider are on PlayerRoot
         body = GetComponent<Rigidbody2D>();
-
-        // Animator is inside CharacterVisual (child)
         anim = GetComponentInChildren<Animator>();
     }
 
@@ -25,10 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
 
-        // Move player
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-
-        // Flip CharacterVisual (not the root) based on direction
         if (horizontalInput > 0.01f)
         {
             anim.transform.localScale = new Vector3(-1, 1, 1); 
@@ -38,13 +32,11 @@ public class PlayerMovement : MonoBehaviour
             anim.transform.localScale = new Vector3(1, 1, 1); 
         }
 
-        // Jump
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             Jump();
         }
 
-        // Update Animator parameters
         anim.SetBool("Running", horizontalInput != 0);
         anim.SetBool("OnGround", grounded);
     }
