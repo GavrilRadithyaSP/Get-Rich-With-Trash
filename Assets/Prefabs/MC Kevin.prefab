@@ -139,6 +139,7 @@ MonoBehaviour:
   objekScore: {fileID: 0}
   maxHealth: 3
   currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!1 &7193399250305478223
 GameObject:
   m_ObjectHideFlags: 0
