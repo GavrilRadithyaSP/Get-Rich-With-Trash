@@ -5,17 +5,34 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public Slider slider;
-    // Start is called before the first frame update
-    public void SetMaxHealth(int health)
+    [SerializeField] public int maxHealth;
+    [SerializeField] public int currentHealth;
+
+    [Header("Config")]
+    [SerializeField] private Image healthbar;
+
+    private void Start()
     {
-        slider.maxValue = health;
-        slider.value = health;
+        currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    public void SetHealth(int health)
+    public void TakeDamage(int amount)
     {
-        slider.value = health;
+        currentHealth -= amount;
+        if (currentHealth <= 0)
+        {
+
+        }
+    }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+    }
+
+    public void UpdatePlayerUI()
+    {
+        healthbar.fillAmount = Mathf.Lerp(healthbar.fillAmount, currentHealth / maxHealth, 10f * Time.deltaTime);
     }
 }

@@ -8,28 +8,21 @@ public class Score : MonoBehaviour
     public int score = 0;
     public GameObject objekScore; // drag TextMeshPro UI object ke sini di Inspector
     private TextMeshProUGUI teksScore;
+    private HealthBar healthBar;
 
-    public int maxHealth = 3;
-    public int currentHealth;
-    public HealthBar healthBar; // drag HealthBar script object ke sini di Inspector
-
-    void Start()
+    private void Start()
     {
         teksScore = objekScore.GetComponent<TextMeshProUGUI>();
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
-
-        // Tampilkan skor awal
+        healthBar = GetComponent<HealthBar>();
         UpdateScoreUI();
     }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("PREMAN"))
         {
             score -= 10;
             UpdateScoreUI();
-            TakeDamage(1);
+            healthBar.TakeDamage(1);
             // Destroy(other.gameObject);
         }
         else if (other.CompareTag("SAMPAH"))
@@ -40,15 +33,9 @@ public class Score : MonoBehaviour
         }
         else
         {
-            TakeDamage(1);
+            healthBar.TakeDamage(1);
             Destroy(other.gameObject);
         }
-    }
-
-    void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
     }
 
     void UpdateScoreUI()
