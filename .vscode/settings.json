@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Get-Rich-With-Trash.sln"
+    "dotnet.defaultSolution": "test.sln"
 }
