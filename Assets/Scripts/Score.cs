@@ -8,12 +8,10 @@ public class Score : MonoBehaviour
     public int score = 0;
     public GameObject objekScore; // drag TextMeshPro UI object ke sini di Inspector
     private TextMeshProUGUI teksScore;
-    private HealthBar healthBar;
 
     private void Start()
     {
         teksScore = objekScore.GetComponent<TextMeshProUGUI>();
-        healthBar = GetComponent<HealthBar>();
         UpdateScoreUI();
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -22,7 +20,7 @@ public class Score : MonoBehaviour
         {
             score -= 10;
             UpdateScoreUI();
-            healthBar.TakeDamage(1);
+            //healthBar.TakeDamage(1);
             // Destroy(other.gameObject);
         }
         else if (other.CompareTag("SAMPAH"))
@@ -33,7 +31,7 @@ public class Score : MonoBehaviour
         }
         else
         {
-            healthBar.TakeDamage(1);
+            //healthBar.TakeDamage(1);
             Destroy(other.gameObject);
         }
     }
