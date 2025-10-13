@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 8748009383471064677}
   - component: {fileID: 8322775786372627474}
   - component: {fileID: 2740006877995063181}
+  - component: {fileID: 8040840636281893810}
   m_Layer: 0
   m_Name: Character Preman 1 yg sudah di mutilasi BENAR FIX
   m_TagString: PREMAN
@@ -470,6 +471,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.4445484, y: 8.192138}
   m_EdgeRadius: 0
+--- !u!50 &8040840636281893810
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000317782593285398}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8038333648180201801
 GameObject:
   m_ObjectHideFlags: 0

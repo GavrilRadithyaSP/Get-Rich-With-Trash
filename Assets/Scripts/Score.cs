@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class Score : MonoBehaviour
 {
     public int score = 0;
-    public GameObject objekScore; // drag TextMeshPro UI object ke sini di Inspector
+    public GameObject objekScore; // Drag TextMeshPro UI object here
     private TextMeshProUGUI teksScore;
 
     private void Start()
@@ -14,24 +12,18 @@ public class Score : MonoBehaviour
         teksScore = objekScore.GetComponent<TextMeshProUGUI>();
         UpdateScoreUI();
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("PREMAN"))
+        if (other.CompareTag("PREMAN")) // Enemy tag
         {
             score -= 10;
             UpdateScoreUI();
-            //healthBar.TakeDamage(1);
-            // Destroy(other.gameObject);
         }
-        else if (other.CompareTag("SAMPAH"))
+        else if (other.CompareTag("SAMPAH")) // Pickup tag
         {
             score += 10;
             UpdateScoreUI();
-            Destroy(other.gameObject);
-        }
-        else
-        {
-            //healthBar.TakeDamage(1);
             Destroy(other.gameObject);
         }
     }

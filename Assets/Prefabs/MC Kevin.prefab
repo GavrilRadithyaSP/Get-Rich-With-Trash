@@ -97,7 +97,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -121,8 +121,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3de7f30ace6dc4e8239df45e587630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 11
-  jumpPower: 7
+  moveSpeed: 11
+  rb: {fileID: 3648822763096945430}
+  animator: {fileID: 3399192301832911477}
+  spriteRenderer: {fileID: 3849361240414533521}
 --- !u!114 &4321514196962665328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,9 +139,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   objekScore: {fileID: 0}
-  maxHealth: 3
-  currentHealth: 0
-  healthBar: {fileID: 0}
 --- !u!1 &7193399250305478223
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +288,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+--- !u!95 &3399192301832911477 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1022587233851804869, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+  m_PrefabInstance: {fileID: 2385974077965219504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3849361240414533521 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1474651178590044449, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+  m_PrefabInstance: {fileID: 2385974077965219504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4292662190470595092 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913527693847573668, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
