@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 785971849737929997}
   - component: {fileID: 6155628517497652793}
   - component: {fileID: 1891389630219731198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PARA PRAJURIT SAMPAH_2
   m_TagString: SAMPAH
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -331093235
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1004404148, guid: 8d8eab7d1688c0a42a0ed0350b05cec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

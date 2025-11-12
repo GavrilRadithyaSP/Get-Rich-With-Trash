@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3648822763096945430}
   - component: {fileID: 2447417344659625564}
   - component: {fileID: 4321514196962665328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MC kevin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,7 +69,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000011920929, y: 0.05542934}
+  m_Offset: {x: 0.00000011920929, y: -1.5735252}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -80,7 +80,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4153011, y: 4.902835}
+  m_Size: {x: 1.4153011, y: 1.6449256}
   m_EdgeRadius: 0
 --- !u!50 &3648822763096945430
 Rigidbody2D:
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 5874005540920565600}
   - component: {fileID: 2926350852531657042}
   - component: {fileID: 8752943690893191097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -239,6 +239,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5422116027182120676}
     m_Modifications:
+    - target: {fileID: 1128158457809436656, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338249499632259087, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385451115830887641, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474651178590044449, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474651178590044449, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 972081557
+      objectReference: {fileID: 0}
     - target: {fileID: 1913527693847573668, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.08
@@ -282,6 +302,42 @@ PrefabInstance:
     - target: {fileID: 1941795031133116632, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
       propertyPath: m_Name
       value: MC Kevin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941795031133116632, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130370851108164227, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314721543793314806, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3818440286994191299, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154812692102011548, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901924619309972916, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334107546119860982, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5467466389518827518, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888972939275897663, guid: 5adf8ec2a2fef274eb2b8057b01d1976, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
