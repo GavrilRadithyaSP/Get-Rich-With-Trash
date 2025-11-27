@@ -1,4 +1,5 @@
 using UnityEngine;
+using Terresquall;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = VirtualJoystick.GetAxisRaw("Horizontal");
+        movement.y = VirtualJoystick.GetAxisRaw("Vertical");
 
         movement = movement.normalized;
 
