@@ -8,13 +8,18 @@ public class NPCDialogue : MonoBehaviour
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
     public string[] dialogueLines;
+    public GameObject interactionButton;
     private int index = 0;
     private bool playerInRange = false;
 
-    void Update()
+    void Start()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
-        {
+        dialoguePanel.SetActive(false);
+        interactionButton.SetActive(false);
+    }
+    
+    public void OnInteractionButtonPressed()
+    {
             if (!dialoguePanel.activeInHierarchy)
             {
                 ShowDialogue();
@@ -23,7 +28,6 @@ public class NPCDialogue : MonoBehaviour
             {
                 NextLine();
             }
-        }
     }
 
     void ShowDialogue()
@@ -51,6 +55,7 @@ public class NPCDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
+            interactionButton.SetActive(true);
         }
     }
 
@@ -59,6 +64,7 @@ public class NPCDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = false;
+            interactionButton.SetActive(false);
             dialoguePanel.SetActive(false);
             index = 0;
         }

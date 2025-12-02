@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [Header("Score Settings")]
+    [Header("===Score Settings===")]
     public int score = 0;
     public int targetScore = 10;
     public TextMeshProUGUI scoreText;
 
-    [Header("Timer Settings")]
+    [Header("===Timer Settings===")]
     [SerializeField] float timeRemaining;   // waktu awal
     [SerializeField] TextMeshProUGUI timerText;
     private bool isGameOver = false;
 
-    [Header("Panels")]
+    [Header("===Panels===")]
     public GameObject winPanel;
     public GameObject losePanel;
 

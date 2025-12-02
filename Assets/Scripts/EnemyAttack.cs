@@ -5,6 +5,7 @@ public class EnemyFollow : MonoBehaviour
     public Transform player;     // drag the player here in the inspector
     public float speed = 2f;     // movement speed
     public float stopDistance = 1f; // how close before stopping
+    public float reduceTimeAmount = 5f; // waktu berkurang 5 detik
 
     private Animator anim;
 
@@ -37,4 +38,13 @@ public class EnemyFollow : MonoBehaviour
                 anim.SetBool("Walking", false);
         }
     }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            FindObjectOfType<GameManager>().ReduceTime(reduceTimeAmount);
+        }
+    }
+
 }
