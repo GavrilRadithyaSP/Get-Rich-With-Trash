@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3654793683763316802}
   - component: {fileID: 1495293352862760570}
   - component: {fileID: 4454450409689375532}
+  - component: {fileID: 171024157315104211}
   m_Layer: 8
   m_Name: pisangggg
   m_TagString: SAMPAH
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.06, y: 1.51}
   m_EdgeRadius: 0
+--- !u!114 &171024157315104211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331016909204743693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6e14f995a79e043bcc334bc705c764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
