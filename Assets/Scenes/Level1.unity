@@ -378,6 +378,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &212906297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7852500309684190657, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
+  m_PrefabInstance: {fileID: 241669569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &241669569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -386,6 +391,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 376344484943172359, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2028414398}
     - target: {fileID: 1195131712775975071, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
       propertyPath: m_Name
       value: canvasFix
@@ -724,11 +733,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 697336084}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &639516188 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5953455430239088835, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
-  m_PrefabInstance: {fileID: 241669569}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &650515448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6857817613964779287, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
@@ -854,6 +858,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 63.976776, y: 5.4103165}
   m_EdgeRadius: 0
+--- !u!1 &1075638851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2448798514197740850, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
+  m_PrefabInstance: {fileID: 241669569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1282188428 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3888306266212490593, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
@@ -1117,11 +1126,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 697336084}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1997149376 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5058488764380900634, guid: 6651c97e8bb00294989f5dda15fdc8e0, type: 3}
-  m_PrefabInstance: {fileID: 241669569}
+--- !u!114 &2028414398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1227296842679396476, guid: 0c5c0b720275eac49be2ecdf0dceec8a, type: 3}
+  m_PrefabInstance: {fileID: 8108318265552876064}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2728826f8d58cdf44ac5a2a447c6e6df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2040872750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,11 +1367,11 @@ PrefabInstance:
     - target: {fileID: 1073495664802914234, guid: 0c5c0b720275eac49be2ecdf0dceec8a, type: 3}
       propertyPath: winPanel
       value: 
-      objectReference: {fileID: 1997149376}
+      objectReference: {fileID: 212906297}
     - target: {fileID: 1073495664802914234, guid: 0c5c0b720275eac49be2ecdf0dceec8a, type: 3}
       propertyPath: losePanel
       value: 
-      objectReference: {fileID: 639516188}
+      objectReference: {fileID: 1075638851}
     - target: {fileID: 1073495664802914234, guid: 0c5c0b720275eac49be2ecdf0dceec8a, type: 3}
       propertyPath: scoreText
       value: 
