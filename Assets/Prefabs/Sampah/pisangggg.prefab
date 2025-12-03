@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 171024157315104211}
   m_Layer: 8
   m_Name: pisangggg
-  m_TagString: SAMPAH
+  m_TagString: Organik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e14f995a79e043bcc334bc705c764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 1
+  scoreValue: 3

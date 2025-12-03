@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: c749127c7ae14f747a4cca2f436174f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c57a6502b02f4683bcec5a10d726d
+      internalID: 1066825267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 503
+        width: 142
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32a90690f70cd24fa8833e85bf7b88c
+      internalID: -1634274168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 503
+        width: 183
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae3b823ab6404a40ae83a91e6553d9b
+      internalID: 1874921804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 413
+        width: 114
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586eecdc8548b4c4bae86ed8f35b4efb
+      internalID: 1340977065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 363
+        width: 159
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878dc28b80e2e154abf29086899e59f0
+      internalID: -128926982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 345
+        width: 174
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b3217f5e12f8a48b09fd95b38807ee
+      internalID: -2013186411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 306
+        width: 121
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613e1b058598ff645a7607e8fdbad4c9
+      internalID: 973806192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_7
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 306
+        width: 120
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea22928535b0a342beb0d5a410fb057
+      internalID: 1090578218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_8
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 308
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7525951fc844c8841996f194d3f32693
+      internalID: 1964153887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 163
+        width: 183
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54c3e6c90f1b8544b5ab3b275813b20
+      internalID: 2055553436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_10
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 92
+        width: 129
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8b0e78d7d5ba2408db53443937728f
+      internalID: 1831852749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 215
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2351a8c753f12448de8c670985be64
+      internalID: 634393701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 47
+        width: 201
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78089dd1b39892428982128aeb74636
+      internalID: -502945714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_0: 1066825267
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_1: -1634274168
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_10: 1831852749
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_11: 634393701
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_12: -502945714
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_2: 1874921804
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_3: 1340977065
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_4: -128926982
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_5: -2013186411
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_6: 973806192
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_7: 1090578218
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_8: 1964153887
+      __{EDC978D6-4D53-4B2F-A265-5805674BE568}_supercalifragilisticexpialidociously_good_grasses_and_bushes,_perfect_for_someone_who's_always_copped_up_at_home_and_doesn't_touch_gr[1]_9: 2055553436
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

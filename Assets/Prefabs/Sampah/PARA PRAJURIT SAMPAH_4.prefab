@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 2740253438786732014}
   - component: {fileID: 8452147264336920435}
   - component: {fileID: 5486299173202056674}
-  - component: {fileID: 4469307896505918723}
+  - component: {fileID: -3938298880426657779}
   m_Layer: 8
   m_Name: PARA PRAJURIT SAMPAH_4
-  m_TagString: SAMPAH
+  m_TagString: Inorganik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.01, y: 1.5}
   m_EdgeRadius: 1
---- !u!114 &4469307896505918723
+--- !u!114 &-3938298880426657779
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608309745792149629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ad74d5e92d0d849a5ca11bbe8bda2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d6e14f995a79e043bcc334bc705c764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePenalty: 1
+  scoreValue: 1

@@ -48,17 +48,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   organicTrash:
   - {fileID: 331016909204743693, guid: 555f29dcadab6354ca9f48b2a3b91304, type: 3}
+  - {fileID: 3423062234700371688, guid: c2c393ae3242c074caf0cc16d7a697e2, type: 3}
+  - {fileID: 8745801143023651109, guid: 0341649c1836ae74fbfac2910d7be631, type: 3}
   inorganicTrash:
-  - {fileID: 4291704449816398026, guid: 169fcd659f0c1d44c9d6c1c9309cefb3, type: 3}
   - {fileID: 1608309745792149629, guid: e35d43bd4fe1b4b4493d83741b67c164, type: 3}
+  - {fileID: 4291704449816398026, guid: 169fcd659f0c1d44c9d6c1c9309cefb3, type: 3}
   hazards:
-  - {fileID: 2992959237718377943, guid: 9440ef33afabc5e49aa88bcda669585a, type: 3}
   - {fileID: 7092918301489294391, guid: cbd4748a4f041df4680999e4d986e995, type: 3}
-  organicCount: 10
-  inorganicCount: 5
-  hazardCount: 4
-  minSpawnPos: {x: 30, y: -5}
-  maxSpawnPos: {x: -20, y: -15}
+  - {fileID: 2992959237718377943, guid: 9440ef33afabc5e49aa88bcda669585a, type: 3}
+  organicCount: 30
+  inorganicCount: 20
+  hazardCount: 13
+  minSpawnPos: {x: 38, y: -2}
+  maxSpawnPos: {x: -28, y: -20}
 --- !u!114 &1073495664802914234
 MonoBehaviour:
   m_ObjectHideFlags: 0
