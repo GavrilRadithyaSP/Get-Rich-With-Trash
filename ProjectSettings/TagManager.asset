@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - SAMPAH
   - PREMAN
+  - GrassGround
+  - BetonGround
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Player
   - Background
   - Trash
-  - 
+  - Ground
   - 
   - 
   - 
