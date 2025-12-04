@@ -105,8 +105,14 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
 
         if (isWin)
+        {
             winPanel.SetActive(true);
+            Time.timeScale = 0;
+        }
         else
+        {
             losePanel.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }
