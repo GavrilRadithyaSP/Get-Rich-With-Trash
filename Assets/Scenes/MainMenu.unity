@@ -3624,7 +3624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.809, y: -36.687}
+  m_AnchoredPosition: {x: -19, y: -21}
   m_SizeDelta: {x: 1078.7048, y: 354.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533549260
@@ -3647,10 +3647,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. Farid Ridwan R. (14) (Desainer Grafik 2D, Dokumentator)\n2. Gavril
-    Radithya S. P (19) (Programmer, Game Designer)\n3. Hisyam Raffa R (24) (Programmer,
-    Desainer Grafik 2D)\r\n\t\tSoftware engine: Unity 2D \r\n\t\tSoftware desain:
-    Illustrator\r\n"
+  m_text: "1. Farid Ridwan R. (14) \n    Desainer Grafik 2D, Dokumentator\n2. Gavril
+    Radithya S. P (19)\n    Programmer, Game Designer\n3. Hisyam Raffa R (24) \n   
+    Programmer, Desainer Grafik 2D\n\t\t\nSoftware engine: Unity 2D \r\n  Software
+    desain: Illustrator\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8e4dca30e000044abc185e6bdc9b835, type: 2}
   m_sharedMaterial: {fileID: -539410546120287988, guid: c8e4dca30e000044abc185e6bdc9b835, type: 2}
@@ -3659,8 +3659,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280194039
-  m_fontColor: {r: 0.96862745, g: 0.5764706, b: 0.11764706, a: 1}
+    rgba: 4280062967
+  m_fontColor: {r: 0.9686275, g: 0.5764706, b: 0.10980393, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3684,7 +3684,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
